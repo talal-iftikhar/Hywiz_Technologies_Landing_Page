@@ -2505,11 +2505,10 @@ footer a {
         padding-right: 18px;
     }
 
-    .copy-write{
-        img{
-            width: 300px;
-            margin-left:50px;
-        }
+    .copy-write img{
+       width:300px;
+       height:auto;
+       margin-left:50px
     }
 }
 
