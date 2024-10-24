@@ -508,7 +508,8 @@ justify-content: space-evenly;
 }
 @media (max-width: 500px) {
     .swiper-slide img {
-       width: 150px;
+       width: 200px;
+      height: auto;
       margin-left: 50px;
     }
 
