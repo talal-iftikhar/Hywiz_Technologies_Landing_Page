@@ -1080,7 +1080,7 @@ img {
 .mession {
     margin-top: 70px;
     position: relative; 
-   /* background-image: url('../Asset/fixed-bg.jpg');*/
+    background-image: url('Asset/fixed-bg.jpg');
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
