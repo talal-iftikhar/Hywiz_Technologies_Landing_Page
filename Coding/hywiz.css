@@ -531,7 +531,7 @@ justify-content: space-evenly;
 
 @media (max-width: 480px) {
     .swiper-slide img {
-        max-width: 150px; /* Further adjust for extra small screens */
+        max-width: 220px; /* Further adjust for extra small screens */
     }
 }
 
@@ -1116,7 +1116,7 @@ img {
 .mession {
     margin-top: 70px;
     position: relative; 
-    background-image: url('/Asset/fixed-bg.jpg');
+    background-image: url('../Asset/Call-to-Action-bg.png');
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
