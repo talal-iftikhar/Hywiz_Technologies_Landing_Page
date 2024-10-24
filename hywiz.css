@@ -506,13 +506,18 @@ justify-content: space-evenly;
         max-width: 80px; /* Adjust for small screens */
     }
 }
-
 @media (max-width: 500px) {
     .swiper-slide img {
-        max-width: 220px; /* Further adjust for extra small screens */
+       width: 150px;
+      margin-left: 50px;
     }
-}
 
+    .swiper-wrapper{
+        gap: 100px;
+    }
+
+
+}
 
 
   .abc{
