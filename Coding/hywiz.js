@@ -4,7 +4,7 @@ const swiper = new Swiper('.mySwiper', {
   autoplay: false, // Turn off Swiper autoplay since we're handling it with CSS
   breakpoints: {
     640: {
-      slidesPerView: 2,
+      slidesPerView: 12,
       spaceBetween: 10,
     },
     768: {
