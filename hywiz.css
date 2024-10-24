@@ -1073,7 +1073,7 @@ img {
 .mession {
     margin-top: 70px;
     position: relative; 
-    background-image: url('../Asset/Call-to-Action-bg.png');
+    background-image: url('Asset/fixed-bg');
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
