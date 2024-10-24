@@ -509,7 +509,7 @@ justify-content: space-evenly;
 
 @media (max-width: 480px) {
     .swiper-slide img {
-        max-width: 150px; /* Further adjust for extra small screens */
+        max-width: 250px; /* Further adjust for extra small screens */
     }
 }
 
