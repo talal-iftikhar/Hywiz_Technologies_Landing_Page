@@ -507,9 +507,9 @@ justify-content: space-evenly;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .swiper-slide img {
-        max-width: 250px; /* Further adjust for extra small screens */
+        max-width: 220px; /* Further adjust for extra small screens */
     }
 }
 
