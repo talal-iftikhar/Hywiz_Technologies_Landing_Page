@@ -1492,7 +1492,7 @@ h5 {
 /* Responsive for mobile devices (max-width: 480px) */
 @media (max-width: 480px) {
     .website-development {
-        margin: 18px;
+        margin: 50px 18px 18px 18px;
         gap: 20px;
     }
 
@@ -1943,7 +1943,7 @@ h5 {
 @media (max-width: 500px) {
     .card-2 {
         --flex-direction: column;
-
+           height: 340px;
         --container-widget-height: initial;
         --container-widget-flex-grow: 0;
         --container-widget-align-self: initial;
@@ -2507,6 +2507,7 @@ footer a {
     .copy-write{
         img{
             width: 300px;
+             margin: auto;
         }
     }
 }
