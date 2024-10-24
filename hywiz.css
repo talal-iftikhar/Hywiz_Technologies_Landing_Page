@@ -1492,7 +1492,7 @@ h5 {
 /* Responsive for mobile devices (max-width: 480px) */
 @media (max-width: 480px) {
     .website-development {
-        margin: 50px 18px 18px 18px;
+        margin: 70px 18px 18px 18px;
         gap: 20px;
     }
 
@@ -2165,16 +2165,10 @@ footer a {
         font-size: 12px; 
     }
 }
-
-
 .inner-section-2{
     padding: 0px 7% 0px 7%;
     margin-top: 30px;
-    
-
 }
-
-
 .Business-Growth-2{
    
     background: linear-gradient(160deg, #181818 0%, #0324FF 100%);
