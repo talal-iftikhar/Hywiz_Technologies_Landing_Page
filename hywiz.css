@@ -475,28 +475,6 @@ justify-content: space-evenly;
 }
 
 
-/* @media (max-width: 400px) {
-    .content {
-        padding-left: 20px;
-        margin-left: 0;
-    }
-
-    .text-animation{
-        font-size: 28px;
-        font-weight: 700;
-        height: 80px;
-        min-width: 200px;
-    }
-
-    .hero .image  img {
-       
-        width: 320;
-        height: auto;
-        margin-left: 10px;
-        margin-right: 0;
-    }
-} */
-
                                             /* SWIPER SLIDER */
         /* ................................................................................. */
   .swiper-wrapper {
@@ -566,20 +544,6 @@ justify-content: space-evenly;
     color: white;
     border-radius: 20px;
 }
-
-
-/* 
-h1 {
-    text-align: center; /
-} */
-/* 
-.my-heading-underline {
-    display: inline-block; 
-    color: var(--primary);
-    border-bottom: 4px solid var(--primary); 
-}  */
-
-
 
 /* Responsive for smaller screens */
 @media (max-width: 768px) {
@@ -678,11 +642,6 @@ h1 {
     }
 }
 
-    
-/* section{
-    margin-left: 8;
-    
-  } */
 
 .service-info{
     margin: 40px 0px 40px 0px;
@@ -868,16 +827,16 @@ h1 {
 @media (max-width: 768px) {
     
     .card {
-        padding: 10px; /* Further reduce padding for mobile */
-        margin: 0 !important; /* Remove margin to prevent overflow */
+        padding: 10px; 
+        margin: 0 !important; 
     }
     
     .card-title {
-        font-size: 18px; /* Smaller title for mobile */
+        font-size: 18px; 
     }
 
     .card-text {
-        font-size: 14px; /* Smaller text for mobile */
+        font-size: 14px; 
     }
 }
 
@@ -894,9 +853,7 @@ h1 {
     gap: 15px;
 }
 
-/* .client-reviews h2{
-    text-align: center; 
-} */
+
  .line{
 text-align: center;
 margin: auto;
@@ -1116,7 +1073,7 @@ img {
 .mession {
     margin-top: 70px;
     position: relative; 
-    background-image: url('/Asset/fixed-bg.jpg');
+    background-image: url('Asset/fixed-bg.jpg');
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
