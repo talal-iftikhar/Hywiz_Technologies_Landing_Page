@@ -515,6 +515,7 @@ justify-content: space-evenly;
 
     .swiper-wrapper{
         gap: 100px;
+       animation: scroll 50s linear infinite;
     }
 
 
