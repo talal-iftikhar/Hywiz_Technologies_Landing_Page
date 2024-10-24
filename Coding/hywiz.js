@@ -1,21 +1,20 @@
-
 const swiper = new Swiper('.mySwiper', {
-  loop: true,
-  autoplay: false, // Turn off Swiper autoplay since we're handling it with CSS
-  breakpoints: {
-    640: {
-      slidesPerView: 12,
-      spaceBetween: 10,
+    loop: true, // Enable looping
+    autoplay: false, // Autoplay disabled since it's handled by CSS or custom JS
+    breakpoints: {
+        640: {
+            slidesPerView: 6, // Show 6 slides at a time on small screens
+            spaceBetween: 5, // Reduce space between slides
+        },
+        768: {
+            slidesPerView: 8, // Show 8 slides at a time on tablets
+            spaceBetween: 10,
+        },
+        1024: {
+            slidesPerView: 12, // Show 12 slides at a time on larger screens
+            spaceBetween: 15,
+        },
     },
-    768: {
-      slidesPerView: 3,
-      spaceBetween: 15,
-    },
-    1024: {
-      slidesPerView: 5,
-      spaceBetween: 20,
-    },
-  },
 });
 
   
